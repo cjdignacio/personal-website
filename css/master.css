@@ -44,6 +44,16 @@ a.title{
     margin-left: 20vw;
   }
 
+  p{
+    position: absolute;
+    text-align: justify;
+    font-size: 2.7vw;
+    margin-top: 2.5vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    line-height: 1.35;
+  }
+
   footer{
     font-size: 2.5vh;
     position: fixed;
@@ -85,6 +95,17 @@ a.title{
     margin-left: 23vw;
   }
 
+  p{
+    position: absolute;
+    text-align: justify;
+    font-size: 3vw;
+    margin-top: 2.5vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    line-height: 1.35;
+    font-style: 'PT Serif Regular 400 italic', serif;
+  }
+
   footer{
     font-size: 1.8vh;
     position: fixed;
@@ -124,6 +145,34 @@ a.title{
     position: absolute;
     font-size: 3.5vh;
     margin-top: 8.5vh;
+    margin-left: 32vw;
+  }
+
+  img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 28.5vw;
+    border-radius: 17vw;
+    width: 17vw;
+
+  }
+
+  p{
+    display: inline-block;
+    position: absolute;
+    text-align: justify;
+    font-size: 1vw;
+    margin-top: 2.5vh;
+    margin-left: 4vw;
+    margin-right: 20.5vw;
+    line-height: 1.35;
+    font-style: 'PT Serif Regular 400 italic', serif;
+  }
+
+  .home{
+    position: absolute;
+    font-size: 3.5vh;
+    margin-top: 18vh;
     margin-left: 32vw;
   }
 
