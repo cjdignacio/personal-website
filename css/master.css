@@ -1,4 +1,6 @@
 body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: #00368E;
   color: white;
   font-style: italic;
@@ -17,23 +19,113 @@ a.title{
     text-transform: lowercase;
 }
 
-header{
-  font-size: 3vh;
-  position: relative;
-  margin-top: 6vw;
-  margin-left: 10vw;
+/* If the screen size is 800px wide & tall or less */
+@media screen and (max-width: 800px) and (max-height: 800px){
+  header{
+    font-size: 3vh;
+    position: relative;
+    margin-top: 6vw;
+    margin-left: 10vw;
+  }
+
+  h2.title{
+    text-align: right;
+    font-size: 3vh;
+    position: relative;
+    margin-top: 20vh;
+    margin-right: 10vw;
+    line-height: 1.35;
+  }
+
+  footer{
+    font-size: 2.5vh;
+    position: fixed;
+    bottom: 10px;
+    margin-left: 9.5vw;
+  }
+
+  footer > h3 > a > span{
+    display: inline-flex;
+    vertical-align:middle;
+  }
+
+  .material-icons.md-48{
+    font-size: 4vh;
+  }
+}
+/* If the screen size is 800px wide or less, but more than 800px wide*/
+@media screen and (max-width: 800px) and (min-height: 800px) {
+  header{
+    font-size: 3vh;
+    position: relative;
+    margin-top: 6vw;
+    margin-left: 10vw;
+  }
+
+  h2.title{
+    text-align: right;
+    font-size: 3vh;
+    position: relative;
+    margin-top: 20vh;
+    margin-right: 10vw;
+    line-height: 1.35;
+  }
+
+  footer{
+    font-size: 1.8vh;
+    position: fixed;
+    bottom: 10px;
+    margin-left: 9.5vw;
+  }
+
+  footer > h3 > a > span{
+    display: inline-flex;
+    vertical-align:middle;
+  }
+
+  .material-icons.md-48{
+    font-size: 25px;
+  }
 }
 
-main{
-  text-align: right;
-  font-size: 2vh;
-  position: relative;
-  margin-right: 10vw;
-}
+/* If the screen size is 801px wide or more */
+@media screen and (min-width: 801px) {
+  header{
+    font-size: 3vh;
+    position: relative;
+    margin-top: 6vw;
+    margin-left: 30vw;
+  }
 
-footer{
-  font-size: 1.8vh;
-  position: fixed;
-  bottom: 10px;
-  margin-left: 9.5vw;
+  h2.title{
+    text-align: right;
+    font-size: 2.5vh;
+    position: relative;
+    margin-top: 13vh;
+    margin-right: 30vw;
+    line-height: 1.35;
+  }
+
+  .navi{
+    position: absolute;
+    font-size: 3.5vh;
+    margin-top: 8.5vh;
+    margin-left: 60vh;
+  }
+
+  footer{
+    font-size: 1.8vh;
+    position: fixed;
+    bottom: 10px;
+    margin-left: 9.5vw;
+  }
+
+  footer > h3 > a > span{
+    display: inline-flex;
+    vertical-align:middle;
+  }
+
+  .material-icons.md-48{
+    font-size: 25px;
+  }
 }
