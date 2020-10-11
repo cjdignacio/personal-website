@@ -88,7 +88,16 @@ a.title{
   }
 
   .material-icons.md-48{
-    font-size: 4vh;
+    font-size: 2.5vh;
+  }
+
+  .fa{
+    display: inline-flex;
+    vertical-align:middle;
+  }
+
+  #linkedin{
+    font-size: 2.5vh;
   }
 }
 /* If the screen size is 1200px wide or less, but more than 800px tall (for Desktop) */
@@ -158,6 +167,15 @@ a.title{
   .material-icons.md-48{
     font-size: 25px;
   }
+
+  .fa{
+    display: inline-flex;
+    vertical-align:middle;
+  }
+
+  #linkedin{
+    font-size: 2.5vh;
+  }
 }
 
 /* If the screen size is 801px wide or more */
@@ -223,11 +241,20 @@ a.title{
 
   footer > h3 > a > span{
     display: inline-flex;
-    vertical-align:middle;
+    vertical-align: middle;
   }
 
   .material-icons.md-48{
     font-size: 25px;
+  }
+
+  .fa{
+    display: inline-flex;
+    vertical-align: middle;
+  }
+
+  #linkedin{
+    font-size: 2.5vh;
   }
 }
 
@@ -252,7 +279,7 @@ a.title{
   .name{
     text-align: center;
   }
-  
+
   .ayo{
     text-align: right;
   }
@@ -320,3 +347,13 @@ a.title{
   .material-icons.md-48{
     font-size: 3vh;
   }
+
+  .fa{
+    display: inline-flex;
+    vertical-align:middle;
+  }
+
+  #linkedin{
+    font-size: 2.5vh;
+  }
+}
