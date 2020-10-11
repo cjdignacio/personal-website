@@ -244,7 +244,6 @@ a.title{
   h2.title{
     text-align: center;
     font-size: 2.5vh;
-    width: 100vw;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -254,7 +253,6 @@ a.title{
   .navi{
     font-size: 3vh;
     margin-top: 8.5vh;
-    width: 100vw;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -303,6 +301,12 @@ a.title{
   footer > h3 > a > span{
     display: inline-flex;
     vertical-align:middle;
+  }
+
+  #home{
+    font-size: 2.1vh;
+    position: fixed;
+    bottom: 2vh;
   }
 
   .material-icons.md-48{
