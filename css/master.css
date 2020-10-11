@@ -24,7 +24,7 @@ a.title{
 }
 
 /* If the screen size is 1200px wide & 800px tall or less (for Desktop) */
-@media screen and (max-width: 1200px) and (max-height: 800px) and (min-width: 769px) {
+@media screen and (max-width: 1200px) and (max-height: 1200px) and (min-width: 1081px) {
   header{
     font-size: 3vh;
     position: relative;
@@ -92,7 +92,7 @@ a.title{
   }
 }
 /* If the screen size is 1200px wide or less, but more than 800px tall (for Desktop) */
-@media screen and (max-width: 1200px) and (min-width: 769px) and (min-height: 800px) {
+@media screen and (max-width: 1200px) and (min-width: 1080px) and (min-height: 1201px) {
   header{
     font-size: 3vh;
     position: relative;
@@ -231,8 +231,8 @@ a.title{
   }
 }
 
-/* Mobile (Width 768px or less) */
-@media only screen and (max-width: 768px) {
+/* Mobile (Width 1080px or less) */
+@media only screen and (max-width: 1080px) {
   header{
     font-size: 3vh;
     display: flex;
