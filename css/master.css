@@ -338,7 +338,7 @@ a.title{
     vertical-align:middle;
   }
 
-  #home{
+  .home{
     font-size: 2.1vh;
     position: fixed;
     bottom: 2vh;
